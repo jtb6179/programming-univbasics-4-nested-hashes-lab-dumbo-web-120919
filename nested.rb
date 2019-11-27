@@ -130,7 +130,7 @@ def adding_to_dennis
      }
      if programmer_hash[:dennis_ritchie][:languages][1] += 1
      else
-       programmer_hash[:dennis_ritchie][:languages => [1] = "Assembly"
+       programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
      end 
   return programmer_hash
 end
