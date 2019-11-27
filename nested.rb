@@ -128,7 +128,9 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     if programmer_hash[:dennis_ritchie][:languages] = ["Smalltalk", "LISP", "Assembly"]
+     if programmer_hash[:dennis_ritchie][:languages => "Smalltalk", "LISP", "Assembly"]
+     else 
+       
        
 
 end
