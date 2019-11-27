@@ -128,9 +128,9 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     if programmer_hash[:dennis_ritchie][:languages => ["Smalltalk", "LISP", "Assembly"]] += 1 
+     if programmer_hash[:dennis_ritchie][:languages][1] += 1
      else
-       programmer_hash[:dennis_ritchie][:languages => ["Smalltalk", "LISP", "Assembly"]] = 1 
+       programmer_hash[:dennis_ritchie][:languages => [1] = ["Assembly"] 
      end 
   return programmer_hash
 end
